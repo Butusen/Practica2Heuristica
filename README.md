@@ -14,6 +14,7 @@ Hay que utilizar el método `heuristicCostEstimate` que devuelve 1 que sería id
 
 ## 5. ¿Realiza este método reevaluación de nudos cuando se encuentra una nueva ruta a un determinado vértice? Justifique la respuesta.
 En el caso en el que no esté expandido, se realizará una reevaluación de nudos, ya que habrá un nuevo neighbor con una ruta más corta como vemos que se realiza en el código de la siguiente imagen. En caso de que esté expandido, no realizará reevaluación, ya que sigue un único camino y no evalua los nuevos vecinos.
+<br />
 ![image](https://user-images.githubusercontent.com/65571317/143951321-d43c3351-9c8f-4813-81bc-53af12f9dcf9.png)
 
 ## Autores ✒️
